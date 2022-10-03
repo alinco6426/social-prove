@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+body{
+    background-image: url(images/bg-pattern-top-desktop.svg),url(images/bg-pattern-bottom-desktop.svg);
+    background-position: top left,bottom right;
+    background-repeat: no-repeat;
+    font-family: 'League Spartan';
+}
+.head .top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+    border-radius: 8px;
+    margin: 80px;
+}
+/* *{ */
+    /* margin: 0; */
+    /* padding: 0; */
+    /* box-sizing: border-box; */
+/* } */
+.stars{
+    margin-top: 100px;
+    margin-right: 330px;
+}
+.stars .item1,.item2,.item3{
+    background-color:hsl(300, 24%, 96%) ;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 10px;
+    width: 400px;
+    padding: 1px 0 1px 50px;
+}
+.item2{
+    margin-left: 30px;
+}
+.item3{
+    margin-left: 60px;
+}
+h1{
+    color:  hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 60px;
+}
+.firstp{
+    color:  hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+p{
+    color: hsl(303, 10%, 53%);
+    font-weight: 400;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    margin: 80px;
+}
+.cards .big,.bigger,.biggest{
+    background-color: hsl(300, 43%, 22%);
+    padding: 15px;
+    border-radius: 8px;
+    height: 200px;
+    margin-right: 100px;
+}
+.user{
+    display: flex;
+}
+.cards p{
+    color: hsl(0, 0%, 100%);
+}
+.user h3{
+    display: inline-block;
+    text-transform: capitalize;
+    color: white;
+}
+img{
+    border-radius: 50px;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.user span{
+    color: hsl(333, 80%, 67%);
+}
+.biggest{
+    margin-top: 40px;
+}
+.bigger{
+    margin-top: 20px;
+}
